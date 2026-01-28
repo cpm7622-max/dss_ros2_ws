@@ -1,0 +1,252 @@
+[0.000000] (-) TimerEvent: {}
+[0.000285] (dss_ros2_bridge) JobQueued: {'identifier': 'dss_ros2_bridge', 'dependencies': OrderedDict()}
+[0.000313] (dss_ros2_bridge) JobStarted: {'identifier': 'dss_ros2_bridge'}
+[0.003915] (dss_ros2_bridge) JobProgress: {'identifier': 'dss_ros2_bridge', 'progress': 'cmake'}
+[0.004389] (dss_ros2_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/dss/ros2_ws/src/dss_ros2_bridge', '-DCMAKE_INSTALL_PREFIX=/home/dss/ros2_ws/install/dss_ros2_bridge'], 'cwd': '/home/dss/ros2_ws/build/dss_ros2_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dss'), ('GIT_ASKPASS', '/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dss'), ('OLDPWD', '/home/dss/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5cf14b87-e436-4c65-aaac-565fa1d60a6d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dss'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/2293_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/dss/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/dss/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USER/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ec2f2f0c9a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/dss/ros2_ws/build/dss_ros2_bridge'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.011563] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.074987] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.099769] (-) TimerEvent: {}
+[0.124333] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.125449] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.128516] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.133263] (dss_ros2_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.139381] (dss_ros2_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.154772] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.155457] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199868] (-) TimerEvent: {}
+[0.300122] (-) TimerEvent: {}
+[0.400377] (-) TimerEvent: {}
+[0.500616] (-) TimerEvent: {}
+[0.600888] (-) TimerEvent: {}
+[0.701134] (-) TimerEvent: {}
+[0.801407] (-) TimerEvent: {}
+[0.901664] (-) TimerEvent: {}
+[1.001921] (-) TimerEvent: {}
+[1.102202] (-) TimerEvent: {}
+[1.202470] (-) TimerEvent: {}
+[1.302724] (-) TimerEvent: {}
+[1.402984] (-) TimerEvent: {}
+[1.503239] (-) TimerEvent: {}
+[1.590464] (dss_ros2_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.603306] (-) TimerEvent: {}
+[1.613891] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.614198] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.634100] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.642616] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.659247] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.703426] (-) TimerEvent: {}
+[1.794485] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.803486] (-) TimerEvent: {}
+[1.903707] (-) TimerEvent: {}
+[1.943081] (dss_ros2_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.000675] (dss_ros2_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.003750] (-) TimerEvent: {}
+[2.012765] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.024198] (dss_ros2_bridge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.024301] (dss_ros2_bridge) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.024330] (dss_ros2_bridge) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.037397] (dss_ros2_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.071379] (dss_ros2_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[2.084100] (dss_ros2_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/dss/ros2_ws/build/dss_ros2_bridge\n'}
+[2.089539] (dss_ros2_bridge) CommandEnded: {'returncode': 0}
+[2.089971] (dss_ros2_bridge) JobProgress: {'identifier': 'dss_ros2_bridge', 'progress': 'build'}
+[2.090771] (dss_ros2_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dss/ros2_ws/build/dss_ros2_bridge', '--', '-j24', '-l24'], 'cwd': '/home/dss/ros2_ws/build/dss_ros2_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dss'), ('GIT_ASKPASS', '/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dss'), ('OLDPWD', '/home/dss/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5cf14b87-e436-4c65-aaac-565fa1d60a6d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dss'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/2293_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/dss/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/dss/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USER/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ec2f2f0c9a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/dss/ros2_ws/build/dss_ros2_bridge'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.103841] (-) TimerEvent: {}
+[2.110718] (dss_ros2_bridge) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.115192] (dss_ros2_bridge) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.119165] (dss_ros2_bridge) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_dss_ros2_bridge\n'}
+[2.204009] (-) TimerEvent: {}
+[2.227771] (dss_ros2_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[2.228105] (dss_ros2_bridge) StdoutLine: {'line': b'creating dss_ros2_bridge.egg-info\n'}
+[2.228878] (dss_ros2_bridge) StdoutLine: {'line': b'writing dss_ros2_bridge.egg-info/PKG-INFO\n'}
+[2.228946] (dss_ros2_bridge) StdoutLine: {'line': b'writing dependency_links to dss_ros2_bridge.egg-info/dependency_links.txt\n'}
+[2.228974] (dss_ros2_bridge) StdoutLine: {'line': b'writing top-level names to dss_ros2_bridge.egg-info/top_level.txt\n'}
+[2.228998] (dss_ros2_bridge) StdoutLine: {'line': b"writing manifest file 'dss_ros2_bridge.egg-info/SOURCES.txt'\n"}
+[2.230992] (dss_ros2_bridge) StdoutLine: {'line': b"reading manifest file 'dss_ros2_bridge.egg-info/SOURCES.txt'\n"}
+[2.231254] (dss_ros2_bridge) StdoutLine: {'line': b"writing manifest file 'dss_ros2_bridge.egg-info/SOURCES.txt'\n"}
+[2.236344] (dss_ros2_bridge) StdoutLine: {'line': b'[  3%] Built target dss_ros2_bridge__cpp\n'}
+[2.240472] (dss_ros2_bridge) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/dss_ros2_bridge__rosidl_generator_c.dir/rosidl_generator_c/dss_ros2_bridge/msg/detail/dss_control__functions.c.o\x1b[0m\n'}
+[2.241061] (dss_ros2_bridge) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.241146] (dss_ros2_bridge) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.241284] (dss_ros2_bridge) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.244538] (dss_ros2_bridge) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_build_dss_ros2_bridge_egg\n'}
+[2.267715] (dss_ros2_bridge) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libdss_ros2_bridge__rosidl_generator_c.so\x1b[0m\n'}
+[2.304070] (-) TimerEvent: {}
+[2.318003] (dss_ros2_bridge) StdoutLine: {'line': b'[ 12%] Built target dss_ros2_bridge__rosidl_generator_c\n'}
+[2.322989] (dss_ros2_bridge) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.323121] (dss_ros2_bridge) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.323152] (dss_ros2_bridge) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.345933] (dss_ros2_bridge) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/dss_ros2_bridge__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dss_ros2_bridge/msg/dss_control__type_support.cpp.o\x1b[0m\n'}
+[2.353514] (dss_ros2_bridge) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/dss_ros2_bridge__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dss_ros2_bridge/msg/detail/dss_control__type_support.cpp.o\x1b[0m\n'}
+[2.357316] (dss_ros2_bridge) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/dss_ros2_bridge__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dss_ros2_bridge/msg/detail/dds_fastrtps/dss_control__type_support.cpp.o\x1b[0m\n'}
+[2.404226] (-) TimerEvent: {}
+[2.436005] (dss_ros2_bridge) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/dss_ros2_bridge__rosidl_typesupport_c.dir/rosidl_typesupport_c/dss_ros2_bridge/msg/dss_control__type_support.cpp.o\x1b[0m\n'}
+[2.440617] (dss_ros2_bridge) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/dss_ros2_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dss_ros2_bridge/msg/detail/dss_control__type_support.c.o\x1b[0m\n'}
+[2.442988] (dss_ros2_bridge) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/dss_ros2_bridge__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dss_ros2_bridge/msg/detail/dss_control__type_support_c.cpp.o\x1b[0m\n'}
+[2.450692] (dss_ros2_bridge) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library libdss_ros2_bridge__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.456836] (dss_ros2_bridge) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking C shared library libdss_ros2_bridge__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.470900] (dss_ros2_bridge) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libdss_ros2_bridge__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.502085] (dss_ros2_bridge) StdoutLine: {'line': b'[ 33%] Built target dss_ros2_bridge__rosidl_typesupport_introspection_c\n'}
+[2.502372] (dss_ros2_bridge) StdoutLine: {'line': b'[ 33%] Built target dss_ros2_bridge__rosidl_typesupport_c\n'}
+[2.504295] (-) TimerEvent: {}
+[2.523394] (dss_ros2_bridge) StdoutLine: {'line': b'[ 33%] Built target dss_ros2_bridge__rosidl_typesupport_cpp\n'}
+[2.536157] (dss_ros2_bridge) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSPointCloudNode.dir/src/DSSToROSPointCloud.cpp.o\x1b[0m\n'}
+[2.536480] (dss_ros2_bridge) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSPointCloudNode.dir/src/defaultGateway.cpp.o\x1b[0m\n'}
+[2.536554] (dss_ros2_bridge) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSIMUNode.dir/src/DSSToROSIMU.cpp.o\x1b[0m\n'}
+[2.536598] (dss_ros2_bridge) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSGpsNode.dir/src/DSSToROSGps.cpp.o\x1b[0m\n'}
+[2.536636] (dss_ros2_bridge) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSImageNode.dir/src/DSSToROSImage.cpp.o\x1b[0m\n'}
+[2.537365] (dss_ros2_bridge) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSGpsNode.dir/src/dss.pb.cc.o\x1b[0m\n'}
+[2.537553] (dss_ros2_bridge) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSPointCloudNode.dir/src/dss.pb.cc.o\x1b[0m\n'}
+[2.537609] (dss_ros2_bridge) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSClockNode.dir/src/DSSToROSClock.cpp.o\x1b[0m\n'}
+[2.537649] (dss_ros2_bridge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/DSSDemoNode.dir/src/DSSDemo.cpp.o\x1b[0m\n'}
+[2.537694] (dss_ros2_bridge) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSGpsNode.dir/src/defaultGateway.cpp.o\x1b[0m\n'}
+[2.537935] (dss_ros2_bridge) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSImageNode.dir/src/defaultGateway.cpp.o\x1b[0m\n'}
+[2.538084] (dss_ros2_bridge) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSIMUNode.dir/src/dss.pb.cc.o\x1b[0m\n'}
+[2.538130] (dss_ros2_bridge) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSIMUNode.dir/src/defaultGateway.cpp.o\x1b[0m\n'}
+[2.539030] (dss_ros2_bridge) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSImageNode.dir/src/dss.pb.cc.o\x1b[0m\n'}
+[2.539174] (dss_ros2_bridge) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSClockNode.dir/src/defaultGateway.cpp.o\x1b[0m\n'}
+[2.539237] (dss_ros2_bridge) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSClockNode.dir/src/dss.pb.cc.o\x1b[0m\n'}
+[2.539290] (dss_ros2_bridge) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/DSSDemoNode.dir/src/DSS.VSSClient.cpp.o\x1b[0m\n'}
+[2.539337] (dss_ros2_bridge) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/DSSDemoNode.dir/src/defaultGateway.cpp.o\x1b[0m\n'}
+[2.539488] (dss_ros2_bridge) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/DSSDemoNode.dir/src/dss.pb.cc.o\x1b[0m\n'}
+[2.548298] (dss_ros2_bridge) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libdss_ros2_bridge__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.553943] (dss_ros2_bridge) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libdss_ros2_bridge__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.604453] (-) TimerEvent: {}
+[2.628302] (dss_ros2_bridge) StdoutLine: {'line': b'[ 71%] Built target dss_ros2_bridge__rosidl_typesupport_introspection_cpp\n'}
+[2.653254] (dss_ros2_bridge) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libdss_ros2_bridge__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.673084] (dss_ros2_bridge) StdoutLine: {'line': b'[ 73%] Built target dss_ros2_bridge__rosidl_typesupport_fastrtps_cpp\n'}
+[2.704596] (-) TimerEvent: {}
+[2.804611] (dss_ros2_bridge) StdoutLine: {'line': b'[ 73%] Built target dss_ros2_bridge__rosidl_typesupport_fastrtps_c\n'}
+[2.804922] (-) TimerEvent: {}
+[2.826004] (dss_ros2_bridge) StdoutLine: {'line': b'[ 73%] Built target dss_ros2_bridge\n'}
+[2.849170] (dss_ros2_bridge) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.859261] (dss_ros2_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dss/ros2_ws/src/dss_ros2_bridge/src/DSSToROSClock.cpp:9:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knlohmann/json.hpp: No such file or directory\n'}
+[2.859552] (dss_ros2_bridge) StderrLine: {'line': b'    9 | #include \x1b[01;31m\x1b[K"nlohmann/json.hpp"\x1b[m\x1b[K\n'}
+[2.859622] (dss_ros2_bridge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.859679] (dss_ros2_bridge) StderrLine: {'line': b'compilation terminated.\n'}
+[2.861925] (dss_ros2_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dss/ros2_ws/src/dss_ros2_bridge/src/DSSToROSGps.cpp:10:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knlohmann/json.hpp: No such file or directory\n'}
+[2.862133] (dss_ros2_bridge) StderrLine: {'line': b'   10 | #include \x1b[01;31m\x1b[K"nlohmann/json.hpp"\x1b[m\x1b[K\n'}
+[2.862314] (dss_ros2_bridge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.862374] (dss_ros2_bridge) StderrLine: {'line': b'compilation terminated.\n'}
+[2.862428] (dss_ros2_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/DSSToROSClockNode.dir/build.make:76: CMakeFiles/DSSToROSClockNode.dir/src/DSSToROSClock.cpp.o] Error 1\n'}
+[2.862490] (dss_ros2_bridge) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.862715] (dss_ros2_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dss/ros2_ws/src/dss_ros2_bridge/src/DSSToROSPointCloud.cpp:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knlohmann/json.hpp: No such file or directory\n'}
+[2.862809] (dss_ros2_bridge) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K"nlohmann/json.hpp"\x1b[m\x1b[K\n'}
+[2.862852] (dss_ros2_bridge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.862895] (dss_ros2_bridge) StderrLine: {'line': b'compilation terminated.\n'}
+[2.864982] (dss_ros2_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/DSSToROSGpsNode.dir/build.make:76: CMakeFiles/DSSToROSGpsNode.dir/src/DSSToROSGps.cpp.o] Error 1\n'}
+[2.865146] (dss_ros2_bridge) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.865403] (dss_ros2_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/DSSToROSPointCloudNode.dir/build.make:76: CMakeFiles/DSSToROSPointCloudNode.dir/src/DSSToROSPointCloud.cpp.o] Error 1\n'}
+[2.865596] (dss_ros2_bridge) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.905094] (-) TimerEvent: {}
+[2.986025] (dss_ros2_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dss/ros2_ws/src/dss_ros2_bridge/src/DSSToROSImage.cpp:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knlohmann/json.hpp: No such file or directory\n'}
+[2.986328] (dss_ros2_bridge) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K"nlohmann/json.hpp"\x1b[m\x1b[K\n'}
+[2.986463] (dss_ros2_bridge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.986529] (dss_ros2_bridge) StderrLine: {'line': b'compilation terminated.\n'}
+[2.988458] (dss_ros2_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/DSSToROSImageNode.dir/build.make:76: CMakeFiles/DSSToROSImageNode.dir/src/DSSToROSImage.cpp.o] Error 1\n'}
+[2.988594] (dss_ros2_bridge) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.005229] (-) TimerEvent: {}
+[3.013683] (dss_ros2_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dss/ros2_ws/src/dss_ros2_bridge/src/DSSToROSIMU.cpp:14:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knlohmann/json.hpp: No such file or directory\n'}
+[3.014046] (dss_ros2_bridge) StderrLine: {'line': b'   14 | #include \x1b[01;31m\x1b[K"nlohmann/json.hpp"\x1b[m\x1b[K\n'}
+[3.014120] (dss_ros2_bridge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.014179] (dss_ros2_bridge) StderrLine: {'line': b'compilation terminated.\n'}
+[3.016672] (dss_ros2_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/DSSToROSIMUNode.dir/build.make:76: CMakeFiles/DSSToROSIMUNode.dir/src/DSSToROSIMU.cpp.o] Error 1\n'}
+[3.016794] (dss_ros2_bridge) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.077991] (dss_ros2_bridge) StdoutLine: {'line': b'[ 75%] Built target dss_ros2_bridge__py\n'}
+[3.094020] (dss_ros2_bridge) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/dss_ros2_bridge__rosidl_generator_py.dir/rosidl_generator_py/dss_ros2_bridge/msg/_dss_control_s.c.o\x1b[0m\n'}
+[3.105313] (-) TimerEvent: {}
+[3.175813] (dss_ros2_bridge) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dss_ros2_bridge/libdss_ros2_bridge__rosidl_generator_py.so\x1b[0m\n'}
+[3.205419] (-) TimerEvent: {}
+[3.236488] (dss_ros2_bridge) StdoutLine: {'line': b'[ 78%] Built target dss_ros2_bridge__rosidl_generator_py\n'}
+[3.248562] (dss_ros2_bridge) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/dss_ros2_bridge__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dss_ros2_bridge/_dss_ros2_bridge_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.250016] (dss_ros2_bridge) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/dss_ros2_bridge__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dss_ros2_bridge/_dss_ros2_bridge_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.250289] (dss_ros2_bridge) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/dss_ros2_bridge__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dss_ros2_bridge/_dss_ros2_bridge_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.295361] (dss_ros2_bridge) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.298228] (dss_ros2_bridge) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.305535] (-) TimerEvent: {}
+[3.319420] (dss_ros2_bridge) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.360432] (dss_ros2_bridge) StdoutLine: {'line': b'[ 89%] Built target dss_ros2_bridge__rosidl_typesupport_c__pyext\n'}
+[3.362013] (dss_ros2_bridge) StdoutLine: {'line': b'[ 89%] Built target dss_ros2_bridge__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.380926] (dss_ros2_bridge) StdoutLine: {'line': b'[ 89%] Built target dss_ros2_bridge__rosidl_typesupport_introspection_c__pyext\n'}
+[3.405650] (-) TimerEvent: {}
+[3.505951] (-) TimerEvent: {}
+[3.606236] (-) TimerEvent: {}
+[3.706538] (-) TimerEvent: {}
+[3.806815] (-) TimerEvent: {}
+[3.865669] (dss_ros2_bridge) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:630: CMakeFiles/DSSToROSPointCloudNode.dir/all] Error 2\n'}
+[3.865851] (dss_ros2_bridge) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.889752] (dss_ros2_bridge) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:684: CMakeFiles/DSSToROSClockNode.dir/all] Error 2\n'}
+[3.895265] (dss_ros2_bridge) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:603: CMakeFiles/DSSToROSImageNode.dir/all] Error 2\n'}
+[3.900231] (dss_ros2_bridge) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:711: CMakeFiles/DSSToROSGpsNode.dir/all] Error 2\n'}
+[3.906883] (-) TimerEvent: {}
+[3.921545] (dss_ros2_bridge) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:657: CMakeFiles/DSSToROSIMUNode.dir/all] Error 2\n'}
+[4.006985] (-) TimerEvent: {}
+[4.107242] (-) TimerEvent: {}
+[4.207564] (-) TimerEvent: {}
+[4.307859] (-) TimerEvent: {}
+[4.408202] (-) TimerEvent: {}
+[4.508561] (-) TimerEvent: {}
+[4.608842] (-) TimerEvent: {}
+[4.709060] (-) TimerEvent: {}
+[4.809346] (-) TimerEvent: {}
+[4.909651] (-) TimerEvent: {}
+[5.009979] (-) TimerEvent: {}
+[5.110335] (-) TimerEvent: {}
+[5.210808] (-) TimerEvent: {}
+[5.311176] (-) TimerEvent: {}
+[5.411468] (-) TimerEvent: {}
+[5.511815] (-) TimerEvent: {}
+[5.612127] (-) TimerEvent: {}
+[5.712477] (-) TimerEvent: {}
+[5.812847] (-) TimerEvent: {}
+[5.913164] (-) TimerEvent: {}
+[6.013452] (-) TimerEvent: {}
+[6.113739] (-) TimerEvent: {}
+[6.214064] (-) TimerEvent: {}
+[6.314366] (-) TimerEvent: {}
+[6.414658] (-) TimerEvent: {}
+[6.514946] (-) TimerEvent: {}
+[6.615211] (-) TimerEvent: {}
+[6.715489] (-) TimerEvent: {}
+[6.815791] (-) TimerEvent: {}
+[6.916078] (-) TimerEvent: {}
+[7.016437] (-) TimerEvent: {}
+[7.116758] (-) TimerEvent: {}
+[7.217071] (-) TimerEvent: {}
+[7.317381] (-) TimerEvent: {}
+[7.417652] (-) TimerEvent: {}
+[7.517951] (-) TimerEvent: {}
+[7.618267] (-) TimerEvent: {}
+[7.718543] (-) TimerEvent: {}
+[7.818804] (-) TimerEvent: {}
+[7.919086] (-) TimerEvent: {}
+[8.019362] (-) TimerEvent: {}
+[8.119725] (-) TimerEvent: {}
+[8.220055] (-) TimerEvent: {}
+[8.320317] (-) TimerEvent: {}
+[8.420612] (-) TimerEvent: {}
+[8.520878] (-) TimerEvent: {}
+[8.621100] (-) TimerEvent: {}
+[8.721370] (-) TimerEvent: {}
+[8.821649] (-) TimerEvent: {}
+[8.921923] (-) TimerEvent: {}
+[9.022186] (-) TimerEvent: {}
+[9.122499] (-) TimerEvent: {}
+[9.222769] (-) TimerEvent: {}
+[9.323031] (-) TimerEvent: {}
+[9.423343] (-) TimerEvent: {}
+[9.523630] (-) TimerEvent: {}
+[9.623897] (-) TimerEvent: {}
+[9.724187] (-) TimerEvent: {}
+[9.824506] (-) TimerEvent: {}
+[9.835683] (dss_ros2_bridge) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable DSSDemoNode\x1b[0m\n'}
+[9.924614] (-) TimerEvent: {}
+[10.024905] (-) TimerEvent: {}
+[10.125194] (-) TimerEvent: {}
+[10.225469] (-) TimerEvent: {}
+[10.325754] (-) TimerEvent: {}
+[10.387046] (dss_ros2_bridge) StdoutLine: {'line': b'[ 91%] Built target DSSDemoNode\n'}
+[10.387614] (dss_ros2_bridge) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.389418] (dss_ros2_bridge) CommandEnded: {'returncode': 2}
+[10.393932] (dss_ros2_bridge) JobEnded: {'identifier': 'dss_ros2_bridge', 'rc': 2}
+[10.404226] (-) EventReactorShutdown: {}

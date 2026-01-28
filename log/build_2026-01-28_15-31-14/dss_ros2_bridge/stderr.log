@@ -1,0 +1,9 @@
+[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+  Could NOT find Protobuf: Found unsuitable version "3.12.4", but required is
+  at least "3.15" (found /usr/lib/x86_64-linux-gnu/libprotobuf.so)
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:592 (_FPHSA_FAILURE_MESSAGE)
+  /usr/share/cmake-3.22/Modules/FindProtobuf.cmake:650 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  CMakeLists.txt:23 (find_package)
+
+[0m

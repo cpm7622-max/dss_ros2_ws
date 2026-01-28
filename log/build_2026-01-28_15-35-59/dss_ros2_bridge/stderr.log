@@ -1,0 +1,11 @@
+[0mCMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+NATS_LIB
+    linked by target "DSSToROSIMUNode" in directory /home/dss/ros2_ws/src/dss_ros2_bridge
+    linked by target "DSSToROSPointCloudNode" in directory /home/dss/ros2_ws/src/dss_ros2_bridge
+    linked by target "DSSToROSImageNode" in directory /home/dss/ros2_ws/src/dss_ros2_bridge
+    linked by target "DSSToROSClockNode" in directory /home/dss/ros2_ws/src/dss_ros2_bridge
+    linked by target "DSSToROSGpsNode" in directory /home/dss/ros2_ws/src/dss_ros2_bridge
+    linked by target "DSSDemoNode" in directory /home/dss/ros2_ws/src/dss_ros2_bridge
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

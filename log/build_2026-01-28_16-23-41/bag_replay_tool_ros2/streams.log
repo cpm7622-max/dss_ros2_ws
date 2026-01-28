@@ -1,0 +1,41 @@
+[0.470s] Invoking command in '/home/dss/ros2_ws/Tools/bag_replay_tool_ros2': PYTHONPATH=/home/dss/ros2_ws/build/bag_replay_tool_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dss/ros2_ws/install/bag_replay_tool_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bag_replay_tool_ros2 build --build-base /home/dss/ros2_ws/build/bag_replay_tool_ros2/build install --record /home/dss/ros2_ws/build/bag_replay_tool_ros2/install.log --single-version-externally-managed install_data
+[0.598s] running egg_info
+[0.598s] creating ../../build/bag_replay_tool_ros2/bag_replay_tool_ros2.egg-info
+[0.598s] writing ../../build/bag_replay_tool_ros2/bag_replay_tool_ros2.egg-info/PKG-INFO
+[0.598s] writing dependency_links to ../../build/bag_replay_tool_ros2/bag_replay_tool_ros2.egg-info/dependency_links.txt
+[0.598s] writing entry points to ../../build/bag_replay_tool_ros2/bag_replay_tool_ros2.egg-info/entry_points.txt
+[0.598s] writing requirements to ../../build/bag_replay_tool_ros2/bag_replay_tool_ros2.egg-info/requires.txt
+[0.598s] writing top-level names to ../../build/bag_replay_tool_ros2/bag_replay_tool_ros2.egg-info/top_level.txt
+[0.598s] writing manifest file '../../build/bag_replay_tool_ros2/bag_replay_tool_ros2.egg-info/SOURCES.txt'
+[0.599s] reading manifest file '../../build/bag_replay_tool_ros2/bag_replay_tool_ros2.egg-info/SOURCES.txt'
+[0.600s] writing manifest file '../../build/bag_replay_tool_ros2/bag_replay_tool_ros2.egg-info/SOURCES.txt'
+[0.600s] running build
+[0.600s] running build_py
+[0.600s] creating /home/dss/ros2_ws/build/bag_replay_tool_ros2/build
+[0.600s] creating /home/dss/ros2_ws/build/bag_replay_tool_ros2/build/lib
+[0.601s] creating /home/dss/ros2_ws/build/bag_replay_tool_ros2/build/lib/bag_replay_tool_ros2
+[0.601s] copying bag_replay_tool_ros2/__init__.py -> /home/dss/ros2_ws/build/bag_replay_tool_ros2/build/lib/bag_replay_tool_ros2
+[0.601s] copying bag_replay_tool_ros2/bag_replay_tool_node.py -> /home/dss/ros2_ws/build/bag_replay_tool_ros2/build/lib/bag_replay_tool_ros2
+[0.601s] running install
+[0.601s] running install_lib
+[0.601s] creating /home/dss/ros2_ws/install/bag_replay_tool_ros2/lib/python3.10/site-packages/bag_replay_tool_ros2
+[0.601s] copying /home/dss/ros2_ws/build/bag_replay_tool_ros2/build/lib/bag_replay_tool_ros2/__init__.py -> /home/dss/ros2_ws/install/bag_replay_tool_ros2/lib/python3.10/site-packages/bag_replay_tool_ros2
+[0.601s] copying /home/dss/ros2_ws/build/bag_replay_tool_ros2/build/lib/bag_replay_tool_ros2/bag_replay_tool_node.py -> /home/dss/ros2_ws/install/bag_replay_tool_ros2/lib/python3.10/site-packages/bag_replay_tool_ros2
+[0.602s] byte-compiling /home/dss/ros2_ws/install/bag_replay_tool_ros2/lib/python3.10/site-packages/bag_replay_tool_ros2/__init__.py to __init__.cpython-310.pyc
+[0.602s] byte-compiling /home/dss/ros2_ws/install/bag_replay_tool_ros2/lib/python3.10/site-packages/bag_replay_tool_ros2/bag_replay_tool_node.py to bag_replay_tool_node.cpython-310.pyc
+[0.604s] running install_data
+[0.604s] creating /home/dss/ros2_ws/install/bag_replay_tool_ros2/share/ament_index
+[0.604s] creating /home/dss/ros2_ws/install/bag_replay_tool_ros2/share/ament_index/resource_index
+[0.604s] creating /home/dss/ros2_ws/install/bag_replay_tool_ros2/share/ament_index/resource_index/packages
+[0.604s] copying resource/bag_replay_tool_ros2 -> /home/dss/ros2_ws/install/bag_replay_tool_ros2/share/ament_index/resource_index/packages
+[0.604s] copying package.xml -> /home/dss/ros2_ws/install/bag_replay_tool_ros2/share/bag_replay_tool_ros2
+[0.605s] creating /home/dss/ros2_ws/install/bag_replay_tool_ros2/share/bag_replay_tool_ros2/launch
+[0.605s] copying launch/bag_replay_tool.launch.py -> /home/dss/ros2_ws/install/bag_replay_tool_ros2/share/bag_replay_tool_ros2/launch
+[0.605s] creating /home/dss/ros2_ws/install/bag_replay_tool_ros2/share/bag_replay_tool_ros2/ui
+[0.605s] copying ui/bag_replay_tool.ui -> /home/dss/ros2_ws/install/bag_replay_tool_ros2/share/bag_replay_tool_ros2/ui
+[0.605s] running install_egg_info
+[0.606s] Copying ../../build/bag_replay_tool_ros2/bag_replay_tool_ros2.egg-info to /home/dss/ros2_ws/install/bag_replay_tool_ros2/lib/python3.10/site-packages/bag_replay_tool_ros2-2.0.0-py3.10.egg-info
+[0.607s] running install_scripts
+[0.619s] Installing bag_replay_tool_node script to /home/dss/ros2_ws/install/bag_replay_tool_ros2/lib/bag_replay_tool_ros2
+[0.620s] writing list of installed files to '/home/dss/ros2_ws/build/bag_replay_tool_ros2/install.log'
+[0.635s] Invoked command in '/home/dss/ros2_ws/Tools/bag_replay_tool_ros2' returned '0': PYTHONPATH=/home/dss/ros2_ws/build/bag_replay_tool_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dss/ros2_ws/install/bag_replay_tool_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bag_replay_tool_ros2 build --build-base /home/dss/ros2_ws/build/bag_replay_tool_ros2/build install --record /home/dss/ros2_ws/build/bag_replay_tool_ros2/install.log --single-version-externally-managed install_data

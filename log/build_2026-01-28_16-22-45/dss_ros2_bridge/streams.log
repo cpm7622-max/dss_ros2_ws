@@ -1,0 +1,171 @@
+[0.010s] Invoking command in '/home/dss/ros2_ws/build/dss_ros2_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dss/ros2_ws/build/dss_ros2_bridge -- -j24 -l24
+[0.056s] [  3%] Built target dss_ros2_bridge__cpp
+[0.056s] [  7%] Built target dss_ros2_bridge__rosidl_generator_c
+[0.065s] [  7%] Built target ament_cmake_python_copy_dss_ros2_bridge
+[0.071s] [ 16%] Built target dss_ros2_bridge__rosidl_typesupport_introspection_c
+[0.071s] [ 17%] Built target dss_ros2_bridge__rosidl_typesupport_c
+[0.071s] [ 23%] Built target dss_ros2_bridge__rosidl_typesupport_fastrtps_c
+[0.071s] [ 28%] Built target dss_ros2_bridge__rosidl_typesupport_cpp
+[0.073s] [ 33%] Built target dss_ros2_bridge__rosidl_typesupport_fastrtps_cpp
+[0.074s] [ 39%] Built target dss_ros2_bridge__rosidl_typesupport_introspection_cpp
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target DSSToROSGpsNode[0m
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target DSSToROSClockNode[0m
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target DSSToROSPointCloudNode[0m
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target DSSToROSIMUNode[0m
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target DSSToROSImageNode[0m
+[0.094s] [ 41%] Built target dss_ros2_bridge
+[0.094s] [ 48%] Built target DSSDemoNode
+[0.096s] [ 55%] Built target DSSToROSGpsNode
+[0.097s] [ 62%] Built target DSSToROSClockNode
+[0.097s] [ 69%] Built target DSSToROSIMUNode
+[0.100s] [ 76%] Built target DSSToROSPointCloudNode
+[0.101s] [ 83%] Built target DSSToROSImageNode
+[0.108s] [ 85%] Built target dss_ros2_bridge__py
+[0.124s] [ 89%] Built target dss_ros2_bridge__rosidl_generator_py
+[0.138s] [100%] Built target dss_ros2_bridge__rosidl_typesupport_introspection_c__pyext
+[0.138s] [100%] Built target dss_ros2_bridge__rosidl_typesupport_fastrtps_c__pyext
+[0.138s] [100%] Built target dss_ros2_bridge__rosidl_typesupport_c__pyext
+[0.211s] running egg_info
+[0.211s] writing dss_ros2_bridge.egg-info/PKG-INFO
+[0.211s] writing dependency_links to dss_ros2_bridge.egg-info/dependency_links.txt
+[0.212s] writing top-level names to dss_ros2_bridge.egg-info/top_level.txt
+[0.213s] reading manifest file 'dss_ros2_bridge.egg-info/SOURCES.txt'
+[0.214s] writing manifest file 'dss_ros2_bridge.egg-info/SOURCES.txt'
+[0.231s] [100%] Built target ament_cmake_python_build_dss_ros2_bridge_egg
+[0.239s] Invoked command in '/home/dss/ros2_ws/build/dss_ros2_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dss/ros2_ws/build/dss_ros2_bridge -- -j24 -l24
+[0.245s] Invoking command in '/home/dss/ros2_ws/build/dss_ros2_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dss/ros2_ws/build/dss_ros2_bridge
+[0.250s] -- Install configuration: ""
+[0.251s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/ament_index/resource_index/rosidl_interfaces/dss_ros2_bridge
+[0.251s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge
+[0.251s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg
+[0.251s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/rosidl_generator_c__visibility_control.h
+[0.251s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail
+[0.251s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__struct.h
+[0.251s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__functions.c
+[0.251s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__functions.h
+[0.252s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__type_support.h
+[0.252s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/dss_control.h
+[0.252s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/library_path.sh
+[0.252s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/library_path.dsv
+[0.252s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_generator_c.so
+[0.252s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge
+[0.253s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg
+[0.253s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.253s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail
+[0.253s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__rosidl_typesupport_fastrtps_c.h
+[0.253s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_fastrtps_c.so
+[0.253s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge
+[0.254s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg
+[0.254s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/dss_control.hpp
+[0.254s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.254s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail
+[0.254s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__type_support.hpp
+[0.254s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__builder.hpp
+[0.254s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__traits.hpp
+[0.254s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__struct.hpp
+[0.254s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge
+[0.255s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg
+[0.255s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.255s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail
+[0.255s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__rosidl_typesupport_fastrtps_cpp.hpp
+[0.255s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dds_fastrtps
+[0.255s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_fastrtps_cpp.so
+[0.255s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge
+[0.256s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg
+[0.256s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.256s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail
+[0.256s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__rosidl_typesupport_introspection_c.h
+[0.256s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__type_support.c
+[0.257s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_introspection_c.so
+[0.257s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_c.so
+[0.257s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge
+[0.257s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg
+[0.257s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail
+[0.257s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__rosidl_typesupport_introspection_cpp.hpp
+[0.258s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__type_support.cpp
+[0.258s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_introspection_cpp.so
+[0.258s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_cpp.so
+[0.258s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/pythonpath.sh
+[0.259s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/pythonpath.dsv
+[0.259s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge-1.0.0-py3.10.egg-info
+[0.259s] -- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge-1.0.0-py3.10.egg-info/SOURCES.txt
+[0.259s] -- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge-1.0.0-py3.10.egg-info/top_level.txt
+[0.259s] -- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge-1.0.0-py3.10.egg-info/dependency_links.txt
+[0.259s] -- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge-1.0.0-py3.10.egg-info/PKG-INFO
+[0.259s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge
+[0.259s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/libdss_ros2_bridge__rosidl_generator_py.so
+[0.259s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/__init__.py
+[0.260s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.260s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/_dss_ros2_bridge_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.260s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.260s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/_dss_ros2_bridge_s.ep.rosidl_typesupport_introspection_c.c
+[0.260s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.260s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg
+[0.260s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg/__init__.py
+[0.260s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg/_dss_control.py
+[0.260s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg/_dss_control_s.c
+[0.260s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/_dss_ros2_bridge_s.ep.rosidl_typesupport_c.c
+[0.279s] Listing '/home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge'...
+[0.280s] Listing '/home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg'...
+[0.283s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.283s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.284s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.284s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_generator_py.so
+[0.284s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/msg/DssControl.idl
+[0.284s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/msg/DssControl.msg
+[0.284s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSImageNode
+[0.285s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSClockNode
+[0.285s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSPointCloudNode
+[0.285s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSIMUNode
+[0.286s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSGpsNode
+[0.286s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSDemoNode
+[0.287s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/libdss_ros2_bridge__rosidl_typesupport_cpp.so
+[0.287s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/msg
+[0.287s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/msg/DssControl.msg:Zone.Identifier
+[0.287s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/msg/DssControl.msg
+[0.287s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/launch
+[0.287s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/launch/launch.py:Zone.Identifier
+[0.287s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/launch/__pycache__
+[0.287s] -- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/launch/__pycache__/launch.cpython-310.pyc
+[0.287s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/launch/__pycache__/launch.cpython-310.pyc:Zone.Identifier
+[0.287s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/launch/launch.py
+[0.288s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/ament_index/resource_index/package_run_dependencies/dss_ros2_bridge
+[0.288s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/ament_index/resource_index/parent_prefix_path/dss_ros2_bridge
+[0.288s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/ament_prefix_path.sh
+[0.288s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/ament_prefix_path.dsv
+[0.288s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/path.sh
+[0.288s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/path.dsv
+[0.288s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/local_setup.bash
+[0.288s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/local_setup.sh
+[0.288s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/local_setup.zsh
+[0.288s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/local_setup.dsv
+[0.288s] -- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/package.dsv
+[0.288s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/ament_index/resource_index/packages/dss_ros2_bridge
+[0.288s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_generator_cExport.cmake
+[0.288s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_generator_cExport-noconfig.cmake
+[0.289s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_typesupport_fastrtps_cExport.cmake
+[0.289s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.289s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_generator_cppExport.cmake
+[0.290s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.290s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.290s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_introspection_cExport.cmake
+[0.290s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.290s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_cExport.cmake
+[0.290s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_cExport-noconfig.cmake
+[0.291s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_introspection_cppExport.cmake
+[0.291s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.291s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_cppExport.cmake
+[0.291s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_cppExport-noconfig.cmake
+[0.291s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_generator_pyExport.cmake
+[0.292s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_generator_pyExport-noconfig.cmake
+[0.292s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/rosidl_cmake-extras.cmake
+[0.292s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.292s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[0.292s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[0.292s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.292s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.292s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.292s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridgeConfig.cmake
+[0.292s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridgeConfig-version.cmake
+[0.292s] -- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/package.xml
+[0.294s] Invoked command in '/home/dss/ros2_ws/build/dss_ros2_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dss/ros2_ws/build/dss_ros2_bridge

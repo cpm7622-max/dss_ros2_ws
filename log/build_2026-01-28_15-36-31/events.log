@@ -1,0 +1,269 @@
+[0.000000] (-) TimerEvent: {}
+[0.000418] (dss_ros2_bridge) JobQueued: {'identifier': 'dss_ros2_bridge', 'dependencies': OrderedDict()}
+[0.000618] (dss_ros2_bridge) JobStarted: {'identifier': 'dss_ros2_bridge'}
+[0.004133] (dss_ros2_bridge) JobProgress: {'identifier': 'dss_ros2_bridge', 'progress': 'cmake'}
+[0.004464] (dss_ros2_bridge) JobProgress: {'identifier': 'dss_ros2_bridge', 'progress': 'build'}
+[0.005041] (dss_ros2_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dss/ros2_ws/build/dss_ros2_bridge', '--', '-j24', '-l24'], 'cwd': '/home/dss/ros2_ws/build/dss_ros2_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dss'), ('GIT_ASKPASS', '/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dss'), ('OLDPWD', '/home/dss/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5cf14b87-e436-4c65-aaac-565fa1d60a6d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dss'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/2293_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/dss/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/dss/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USER/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ec2f2f0c9a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/dss/ros2_ws/build/dss_ros2_bridge'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.028328] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_generator_c\x1b[0m\n'}
+[0.033220] (dss_ros2_bridge) StdoutLine: {'line': b'[  1%] Built target dss_ros2_bridge__cpp\n'}
+[0.033422] (dss_ros2_bridge) StdoutLine: {'line': b'[  7%] Built target dss_ros2_bridge__rosidl_generator_c\n'}
+[0.037199] (dss_ros2_bridge) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_copy_dss_ros2_bridge\n'}
+[0.038029] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.038189] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.038285] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.038589] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_c\x1b[0m\n'}
+[0.038650] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.042871] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.043465] (dss_ros2_bridge) StdoutLine: {'line': b'[ 12%] Built target dss_ros2_bridge__rosidl_typesupport_introspection_c\n'}
+[0.043659] (dss_ros2_bridge) StdoutLine: {'line': b'[ 17%] Built target dss_ros2_bridge__rosidl_typesupport_cpp\n'}
+[0.044533] (dss_ros2_bridge) StdoutLine: {'line': b'[ 23%] Built target dss_ros2_bridge__rosidl_typesupport_fastrtps_cpp\n'}
+[0.044800] (dss_ros2_bridge) StdoutLine: {'line': b'[ 28%] Built target dss_ros2_bridge__rosidl_typesupport_introspection_cpp\n'}
+[0.045733] (dss_ros2_bridge) StdoutLine: {'line': b'[ 33%] Built target dss_ros2_bridge__rosidl_typesupport_c\n'}
+[0.049725] (dss_ros2_bridge) StdoutLine: {'line': b'[ 39%] Built target dss_ros2_bridge__rosidl_typesupport_fastrtps_c\n'}
+[0.049871] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DSSToROSIMUNode\x1b[0m\n'}
+[0.049935] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DSSToROSClockNode\x1b[0m\n'}
+[0.049994] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DSSToROSGpsNode\x1b[0m\n'}
+[0.050049] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DSSToROSPointCloudNode\x1b[0m\n'}
+[0.050297] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DSSToROSImageNode\x1b[0m\n'}
+[0.052532] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DSSDemoNode\x1b[0m\n'}
+[0.057138] (dss_ros2_bridge) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSPointCloudNode.dir/src/DSSToROSPointCloud.cpp.o\x1b[0m\n'}
+[0.057378] (dss_ros2_bridge) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSGpsNode.dir/src/DSSToROSGps.cpp.o\x1b[0m\n'}
+[0.057557] (dss_ros2_bridge) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSClockNode.dir/src/DSSToROSClock.cpp.o\x1b[0m\n'}
+[0.057774] (dss_ros2_bridge) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSImageNode.dir/src/DSSToROSImage.cpp.o\x1b[0m\n'}
+[0.058786] (dss_ros2_bridge) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/DSSToROSIMUNode.dir/src/DSSToROSIMU.cpp.o\x1b[0m\n'}
+[0.060464] (dss_ros2_bridge) StdoutLine: {'line': b'[ 48%] Built target dss_ros2_bridge\n'}
+[0.065565] (dss_ros2_bridge) StdoutLine: {'line': b'[ 57%] Built target DSSDemoNode\n'}
+[0.070765] (dss_ros2_bridge) StdoutLine: {'line': b'[ 58%] Built target dss_ros2_bridge__py\n'}
+[0.076080] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_generator_py\x1b[0m\n'}
+[0.082441] (dss_ros2_bridge) StdoutLine: {'line': b'[ 62%] Built target dss_ros2_bridge__rosidl_generator_py\n'}
+[0.087947] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.088056] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.089784] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.095194] (dss_ros2_bridge) StdoutLine: {'line': b'[ 66%] Built target dss_ros2_bridge__rosidl_typesupport_introspection_c__pyext\n'}
+[0.096450] (dss_ros2_bridge) StdoutLine: {'line': b'[ 69%] Built target dss_ros2_bridge__rosidl_typesupport_c__pyext\n'}
+[0.097272] (dss_ros2_bridge) StdoutLine: {'line': b'[ 73%] Built target dss_ros2_bridge__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.099874] (-) TimerEvent: {}
+[0.174875] (dss_ros2_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[0.175281] (dss_ros2_bridge) StdoutLine: {'line': b'writing dss_ros2_bridge.egg-info/PKG-INFO\n'}
+[0.175428] (dss_ros2_bridge) StdoutLine: {'line': b'writing dependency_links to dss_ros2_bridge.egg-info/dependency_links.txt\n'}
+[0.175556] (dss_ros2_bridge) StdoutLine: {'line': b'writing top-level names to dss_ros2_bridge.egg-info/top_level.txt\n'}
+[0.176430] (dss_ros2_bridge) StdoutLine: {'line': b"reading manifest file 'dss_ros2_bridge.egg-info/SOURCES.txt'\n"}
+[0.176709] (dss_ros2_bridge) StdoutLine: {'line': b"writing manifest file 'dss_ros2_bridge.egg-info/SOURCES.txt'\n"}
+[0.191425] (dss_ros2_bridge) StdoutLine: {'line': b'[ 73%] Built target ament_cmake_python_build_dss_ros2_bridge_egg\n'}
+[0.199981] (-) TimerEvent: {}
+[0.300254] (-) TimerEvent: {}
+[0.400567] (-) TimerEvent: {}
+[0.500815] (-) TimerEvent: {}
+[0.601124] (-) TimerEvent: {}
+[0.701419] (-) TimerEvent: {}
+[0.801737] (-) TimerEvent: {}
+[0.902046] (-) TimerEvent: {}
+[1.002386] (-) TimerEvent: {}
+[1.102704] (-) TimerEvent: {}
+[1.203008] (-) TimerEvent: {}
+[1.303329] (-) TimerEvent: {}
+[1.403710] (-) TimerEvent: {}
+[1.504006] (-) TimerEvent: {}
+[1.604306] (-) TimerEvent: {}
+[1.704608] (-) TimerEvent: {}
+[1.804903] (-) TimerEvent: {}
+[1.905317] (-) TimerEvent: {}
+[2.005666] (-) TimerEvent: {}
+[2.105981] (-) TimerEvent: {}
+[2.206265] (-) TimerEvent: {}
+[2.306558] (-) TimerEvent: {}
+[2.406873] (-) TimerEvent: {}
+[2.507198] (-) TimerEvent: {}
+[2.607504] (-) TimerEvent: {}
+[2.707805] (-) TimerEvent: {}
+[2.808078] (-) TimerEvent: {}
+[2.908421] (-) TimerEvent: {}
+[3.008748] (-) TimerEvent: {}
+[3.109083] (-) TimerEvent: {}
+[3.209386] (-) TimerEvent: {}
+[3.309670] (-) TimerEvent: {}
+[3.409957] (-) TimerEvent: {}
+[3.510227] (-) TimerEvent: {}
+[3.610485] (-) TimerEvent: {}
+[3.710781] (-) TimerEvent: {}
+[3.731229] (dss_ros2_bridge) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable DSSToROSClockNode\x1b[0m\n'}
+[3.738478] (dss_ros2_bridge) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable DSSToROSGpsNode\x1b[0m\n'}
+[3.783513] (dss_ros2_bridge) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable DSSToROSPointCloudNode\x1b[0m\n'}
+[3.810889] (-) TimerEvent: {}
+[3.911196] (-) TimerEvent: {}
+[3.984790] (dss_ros2_bridge) StdoutLine: {'line': b'[ 82%] Built target DSSToROSClockNode\n'}
+[3.985646] (dss_ros2_bridge) StdoutLine: {'line': b'[ 85%] Built target DSSToROSGpsNode\n'}
+[4.011288] (-) TimerEvent: {}
+[4.025299] (dss_ros2_bridge) StdoutLine: {'line': b'[ 89%] Built target DSSToROSPointCloudNode\n'}
+[4.111410] (-) TimerEvent: {}
+[4.211669] (-) TimerEvent: {}
+[4.302832] (dss_ros2_bridge) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable DSSToROSImageNode\x1b[0m\n'}
+[4.311789] (-) TimerEvent: {}
+[4.330215] (dss_ros2_bridge) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable DSSToROSIMUNode\x1b[0m\n'}
+[4.411862] (-) TimerEvent: {}
+[4.512115] (-) TimerEvent: {}
+[4.544598] (dss_ros2_bridge) StdoutLine: {'line': b'[ 96%] Built target DSSToROSIMUNode\n'}
+[4.612247] (-) TimerEvent: {}
+[4.699678] (dss_ros2_bridge) StdoutLine: {'line': b'[100%] Built target DSSToROSImageNode\n'}
+[4.705996] (dss_ros2_bridge) CommandEnded: {'returncode': 0}
+[4.706536] (dss_ros2_bridge) JobProgress: {'identifier': 'dss_ros2_bridge', 'progress': 'install'}
+[4.710537] (dss_ros2_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dss/ros2_ws/build/dss_ros2_bridge'], 'cwd': '/home/dss/ros2_ws/build/dss_ros2_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dss'), ('GIT_ASKPASS', '/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dss'), ('OLDPWD', '/home/dss/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5cf14b87-e436-4c65-aaac-565fa1d60a6d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dss'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/2293_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/dss/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/dss/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/dss/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USER/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ec2f2f0c9a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/dss/ros2_ws/build/dss_ros2_bridge'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.712347] (-) TimerEvent: {}
+[4.714698] (dss_ros2_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.715042] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/ament_index/resource_index/rosidl_interfaces/dss_ros2_bridge\n'}
+[4.715140] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge\n'}
+[4.715378] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg\n'}
+[4.715470] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.715553] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail\n'}
+[4.715613] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__struct.h\n'}
+[4.715718] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__functions.c\n'}
+[4.715828] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__functions.h\n'}
+[4.715858] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__type_support.h\n'}
+[4.715886] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/dss_control.h\n'}
+[4.715967] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/library_path.sh\n'}
+[4.716036] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/library_path.dsv\n'}
+[4.716172] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_generator_c.so\n'}
+[4.716307] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_generator_c.so" to ""\n'}
+[4.716380] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge\n'}
+[4.716466] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg\n'}
+[4.716499] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.716535] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail\n'}
+[4.716606] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__rosidl_typesupport_fastrtps_c.h\n'}
+[4.716722] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_fastrtps_c.so\n'}
+[4.716754] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.716778] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge\n'}
+[4.716802] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg\n'}
+[4.716954] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/dss_control.hpp\n'}
+[4.717016] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.717154] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail\n'}
+[4.717213] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__type_support.hpp\n'}
+[4.717254] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__builder.hpp\n'}
+[4.717336] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__traits.hpp\n'}
+[4.717399] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__struct.hpp\n'}
+[4.717588] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge\n'}
+[4.717646] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg\n'}
+[4.717742] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.717864] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail\n'}
+[4.717959] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.718046] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dds_fastrtps\n'}
+[4.718111] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.718184] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.718254] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge\n'}
+[4.718314] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg\n'}
+[4.718386] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.718459] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail\n'}
+[4.718530] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__rosidl_typesupport_introspection_c.h\n'}
+[4.718601] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__type_support.c\n'}
+[4.718672] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_introspection_c.so\n'}
+[4.718821] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.718870] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_c.so\n'}
+[4.718931] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_c.so" to ""\n'}
+[4.719003] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge\n'}
+[4.719067] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg\n'}
+[4.719095] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail\n'}
+[4.719118] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.719142] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__type_support.cpp\n'}
+[4.719164] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_introspection_cpp.so\n'}
+[4.719220] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.719255] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_cpp.so\n'}
+[4.719277] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_cpp.so" to ""\n'}
+[4.719311] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/pythonpath.sh\n'}
+[4.719366] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/pythonpath.dsv\n'}
+[4.719440] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge-1.0.0-py3.10.egg-info\n'}
+[4.719525] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.719621] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.719689] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.719719] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.719885] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge\n'}
+[4.719957] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/libdss_ros2_bridge__rosidl_generator_py.so\n'}
+[4.719997] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/__init__.py\n'}
+[4.720057] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.720112] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/_dss_ros2_bridge_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.720182] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.720223] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/_dss_ros2_bridge_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.720317] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.720373] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg\n'}
+[4.720399] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg/__init__.py\n'}
+[4.720421] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg/_dss_control.py\n'}
+[4.720444] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg/_dss_control_s.c\n'}
+[4.720472] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/_dss_ros2_bridge_s.ep.rosidl_typesupport_c.c\n'}
+[4.738492] (dss_ros2_bridge) StdoutLine: {'line': b"Listing '/home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge'...\n"}
+[4.738613] (dss_ros2_bridge) StdoutLine: {'line': b"Compiling '/home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/__init__.py'...\n"}
+[4.738643] (dss_ros2_bridge) StdoutLine: {'line': b"Listing '/home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg'...\n"}
+[4.738668] (dss_ros2_bridge) StdoutLine: {'line': b"Compiling '/home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg/__init__.py'...\n"}
+[4.738692] (dss_ros2_bridge) StdoutLine: {'line': b"Compiling '/home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg/_dss_control.py'...\n"}
+[4.740891] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.741041] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.741178] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.741257] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.741319] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.741447] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.741544] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_generator_py.so\n'}
+[4.741634] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_generator_py.so" to ""\n'}
+[4.741777] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/msg/DssControl.idl\n'}
+[4.741854] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/msg/DssControl.msg\n'}
+[4.741992] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSImageNode\n'}
+[4.743060] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSImageNode" to ""\n'}
+[4.743123] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSClockNode\n'}
+[4.743862] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSClockNode" to ""\n'}
+[4.743927] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSPointCloudNode\n'}
+[4.744879] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSPointCloudNode" to ""\n'}
+[4.744938] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSIMUNode\n'}
+[4.745735] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSIMUNode" to ""\n'}
+[4.745806] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSGpsNode\n'}
+[4.746735] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSGpsNode" to ""\n'}
+[4.746848] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSDemoNode\n'}
+[4.750165] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSDemoNode" to ""\n'}
+[4.750254] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/libdss_ros2_bridge__rosidl_typesupport_cpp.so\n'}
+[4.750377] (dss_ros2_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/dss/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/libdss_ros2_bridge__rosidl_typesupport_cpp.so" to ""\n'}
+[4.750477] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/msg\n'}
+[4.750617] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/msg/DssControl.msg:Zone.Identifier\n'}
+[4.750669] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/msg/DssControl.msg\n'}
+[4.750695] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/launch\n'}
+[4.750781] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/launch/launch.py:Zone.Identifier\n'}
+[4.750931] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/launch/__pycache__\n'}
+[4.751026] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/launch/__pycache__/launch.cpython-310.pyc\n'}
+[4.751130] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/launch/__pycache__/launch.cpython-310.pyc:Zone.Identifier\n'}
+[4.751246] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/launch/launch.py\n'}
+[4.751334] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/ament_index/resource_index/package_run_dependencies/dss_ros2_bridge\n'}
+[4.751494] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/ament_index/resource_index/parent_prefix_path/dss_ros2_bridge\n'}
+[4.751581] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/ament_prefix_path.sh\n'}
+[4.751665] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/ament_prefix_path.dsv\n'}
+[4.751777] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/path.sh\n'}
+[4.751810] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/path.dsv\n'}
+[4.751866] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/local_setup.bash\n'}
+[4.752017] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/local_setup.sh\n'}
+[4.752089] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/local_setup.zsh\n'}
+[4.752169] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/local_setup.dsv\n'}
+[4.752256] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/package.dsv\n'}
+[4.752370] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/ament_index/resource_index/packages/dss_ros2_bridge\n'}
+[4.752508] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_generator_cExport.cmake\n'}
+[4.752584] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.752657] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.752734] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.752814] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_generator_cppExport.cmake\n'}
+[4.752918] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.752955] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.753016] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.753112] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.753174] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_cExport.cmake\n'}
+[4.753293] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.753366] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.753550] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.753590] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_cppExport.cmake\n'}
+[4.753665] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.753787] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_generator_pyExport.cmake\n'}
+[4.753820] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.753899] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/rosidl_cmake-extras.cmake\n'}
+[4.754025] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.754062] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.754099] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.754170] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.754293] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.754359] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.754430] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridgeConfig.cmake\n'}
+[4.754549] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridgeConfig-version.cmake\n'}
+[4.754583] (dss_ros2_bridge) StdoutLine: {'line': b'-- Installing: /home/dss/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/package.xml\n'}
+[4.755740] (dss_ros2_bridge) CommandEnded: {'returncode': 0}
+[4.766206] (dss_ros2_bridge) JobEnded: {'identifier': 'dss_ros2_bridge', 'rc': 0}
+[4.766817] (-) EventReactorShutdown: {}

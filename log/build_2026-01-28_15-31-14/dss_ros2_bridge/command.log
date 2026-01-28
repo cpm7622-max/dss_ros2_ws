@@ -1,0 +1,2 @@
+Invoking command in '/home/dss/ros2_ws/build/dss_ros2_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dss/ros2_ws/src/dss_ros2_bridge -DCMAKE_INSTALL_PREFIX=/home/dss/ros2_ws/install/dss_ros2_bridge
+Invoked command in '/home/dss/ros2_ws/build/dss_ros2_bridge' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dss/ros2_ws/src/dss_ros2_bridge -DCMAKE_INSTALL_PREFIX=/home/dss/ros2_ws/install/dss_ros2_bridge
